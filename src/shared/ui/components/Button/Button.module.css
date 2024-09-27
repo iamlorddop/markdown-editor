@@ -1,0 +1,89 @@
+@import "../../../../assets/color.css";
+@import "../../../../assets/fonts.css";
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--color-white);
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+}
+
+.l {
+  padding: 6px 8px;
+  height: 36px;
+  font-size: var(--font-normal-size);
+}
+
+.m {
+  padding: 6px;
+  height: 32px;
+  font-size: var(--font-small-size);
+}
+
+.s {
+  padding: 2px 4px;
+  height: 24px;
+  font-size: var(--font-small-size);
+}
+
+.primary {
+  background: var(--color-primary);
+}
+
+.primary:hover {
+  background: var(--color-primary-10);
+}
+
+.primary:active {
+  background: var(--color-primary-20);
+}
+
+.light {
+  color: var(--color-primary);
+  background: transparent;
+}
+
+.light {
+  color: var(--color-primary);
+  background: transparent;
+}
+
+.light:hover {
+  background: rgba(var(--color-dark-rgb), 0.1);
+}
+
+.light:active {
+  background: rgba(var(--color-dark-rgb), 0.2);
+}
+
+.primaryInverse {
+  background: rgba(var(--color-dark-rgb), 0.9);
+}
+
+.primaryInverse:hover {
+  background: rgba(var(--color-dark-rgb), 0.8);
+}
+
+.primaryInverse:active {
+  background: var(--color-dark);
+}
+
+.lightInverse {
+  color: var(--color-dark);
+  background: transparent;
+}
+
+.lightInverse:hover {
+  color: var(--color-white);
+  background: rgba(var(--color-dark-rgb), 0.7);
+}
+
+.lightInverse:active {
+  color: var(--color-white);
+  background: var(--color-dark);
+}
