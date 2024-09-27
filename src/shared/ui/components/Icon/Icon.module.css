@@ -1,0 +1,25 @@
+@import "../../../../assets/fonts.css";
+
+.icon {
+  display: inline-block;
+}
+
+.xs {
+  width: 16px;
+  height: 16px;
+}
+
+.s {
+  width: 18px;
+  height: 18px;
+}
+
+.m {
+  width: 20px;
+  height: 20px;
+}
+
+.l {
+  width: 24px;
+  height: 24px;
+}
